@@ -2,7 +2,7 @@ const mongoose = require("mongoose");
 const app = require("../../app");
 
 const PORT = 3000;
-const MONGO_URL = "mongodb+srv://sianemmahayes1997:QU1map5e2ReoZARI@fashionapplication.s4g7rwh.mongodb.net/lostFoundDB?";
+const MONGO_URL = "#"; //Ask for credentials for MongoDB Atlas
 
 mongoose
   .connect(MONGO_URL)
