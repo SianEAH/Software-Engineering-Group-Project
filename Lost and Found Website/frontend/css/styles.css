@@ -11,3 +11,8 @@
 body{
   background-color: beige;
 }
+.card{
+  background-color:azure;
+  width: 33%;
+  display: inline-block;
+}
