@@ -16,3 +16,24 @@ body{
   width: 33%;
   display: inline-block;
 }
+
+/*Login Page: Sian Hayes (x23339837)*/
+.button {
+            width: 120px;
+            padding: 10px 0;
+            margin: 10px;
+            font-size: 16px;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            transition: background 0.3s, color 0.3s; /*transition for the background of the buttons*/
+}
+
+#buttonsDiv {
+    margin-left: 575px;
+    margin-top: 200px;
+}
+
+.button:hover {
+            background-color: brown;
+}
