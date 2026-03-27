@@ -19,7 +19,7 @@
     integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
     crossorigin="anonymous"></script>
 
-  <title>Lost</title>
+  <title>Found</title>
 
 </head>
 
@@ -50,6 +50,48 @@
       </div>
     </nav>
   </div>
+  <div>
+    <div class="card"> <!--Submitting item form example, Roberto Travers-->
+      <div class="card-body">
+        <h4>Submit a lost item</h4>
+        <form>
+        <label for="iname">Item Name:</label><br>
+        <input type="text" id="iname" name="iname"><br>
+        <label for="idesc">Item Description:</label><br>
+        <input type="text" id="idesc" name="idesc">
+        </form><br>
+        <button>Submit image</button>
+        <button type="button" class="btn btn-primary">Submit</button>
+      </div>
+    </div>
+  </div><br>
+    <div class="card-group"> <!--Submitted item menu, Roberto Travers-->
+        <div class="card"> <!--First Item-->
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+                <h4 class="card-title">Lost Coat</h4>
+                <p class="card-text">Found in the lobby.</p>
+                <button type="button" class="btn btn-primary">Claim</button>
+            </div>
+        </div>
+        <div class="card"> <!--Second Item-->
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+                <h4 class="card-title">Lost Student ID</h4>
+                <p class="card-text">Found outside room 2.</p>
+                <button type="button" class="btn btn-primary">Claim</button>
+            </div>
+        </div>
+        <div class="card"> <!--Third Item-->
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+                <h4 class="card-title">Lost Phone Charger</h4>
+                <p class="card-text">Found inside the canteen.</p>
+                <button type="button" class="btn btn-primary">Claim</button>
+            </div>
+        </div>
+    </div>
+
 
 
 </body>
